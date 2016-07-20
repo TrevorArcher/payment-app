@@ -1,6 +1,5 @@
 .about-contact{
    float: left;
-   text-decoration-line: none
 }
 .social-links{
     float: right
@@ -13,4 +12,10 @@ footer{
 	position:absolute;
 	bottom:0;
 	left:0;
+}
+.social-links ul{
+	list-style-type: none
+}
+.about-contact ul{
+	list-style-type: none
 }
