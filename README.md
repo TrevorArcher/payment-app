@@ -1,1 +1,1 @@
-# code-camp
+# payment-app
