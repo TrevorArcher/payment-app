@@ -3,12 +3,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;*/
   font-family: 'EB Garamond', serif;
+  color: #555;
   margin: 0;
 }
 
 header {
   position: relative;
-  background: url(../images/ggbridge.jpg) bottom no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ggbridge.jpg) bottom no-repeat;
   background-size: cover;
   text-align: right;
   color: #fff;
@@ -16,15 +17,24 @@ header {
   height: 40vh;
 }
 
-#logo {
-  float: left;
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header img {
+  position: absolute;
+  display: inline;
+  bottom: 0;
+  left: 0;
+
 }
 
 #tagline {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 1rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 .product-info {
@@ -34,7 +44,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 1.25rem;
     font-size: 1.5rem;
 }
 
