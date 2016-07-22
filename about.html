@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> About </title>
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: #66ccff;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+ padding: 0;
+}
+
+.nav ul a {
+ text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>About</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><em>Get There Fast</em></li>
+  <li><a href="">Home</a></li>
+  <li><a href="#">sign up</a></li>
+  <li><img src="http://californiawatch.org/files/fastrak_3.jpg" width="200"/></li>
+<li><img src="http://2.bp.blogspot.com/-bOs8GWxI-Ww/U24oaI_iw3I/AAAAAAAARhs/DAyvHDSHzSE/s1600/fastrak+lane+toll+road.jpg" width="200"/></li>
+<li><img src="http://localwiki.net/media/cache/8b/5e/8b5efe0ade33ab6bca2e1abb735605e1.jpg" width="200"/></li>
+
+</ul>
+</nav>
+
+<article class="article">
+  <h3>Company</h3>
+  <p>Like everyone else, we want to get sh*t done and focus on the daily matters that matter to us most.
+We are building a transportation mobile payment app for your daily commute. Think FasTrak 2.0, but on your phone.
+</p>
+  <h3>Mission</h3>
+  <p>Building an autonomous mobile payments system that brings convenience to your daily commute.</p>
+  <h3>The Team</h3>
+  <ul class="team">
+    <li><strong>Vicky Nguyen</strong> <br>
+Tech marketer turned entrepreneur learning </code>. In the development of this mobile payments transportation system, I have my love for salsa dancing to thank each day. My very own commutes of sitting in traffic and pondering had brought this idea to life.
+</li>
+    <li><strong>Trevor Archer</strong> <br>
+Traffic is one of those modern inconveniences that everyone seems to accept as the normal way of life. I want to give people the freedom to spend their time as they choose, rather than being stuck in traffic for half of their waking hours. A typical Silicon Valley resident, I spend my time coding, gaming, and mainlining espresso.
+
+</li><br>
+    <li>
+<strong>Alfonso Gutierrez</strong> <br>
+Hello, I was born and raised in the Bay Area, primarily in the Peninsula. I, recently, lived in Los Angeles for approximately 3 years to experience life and to get out of my comfort zone. I've moved back earlier this year and ready to pursue my interest in Web and Application Development, so I can improve the traffic congestion that I familiarized in LA, and apply it to the local citizens of the Bay Area.
+</li><br>
+    <li><strong>
+Jason Ma</strong> <br>
+I joined this development team because I wanted to work with the related technology. Having an app that enables clients to pay for all forms of transportation costs with one simple touch makes the clients' lives easier. I'm a former research scientist who has turned to software development because of its applicability to everyday life.
+
+ </li><br>
+    <li><strong>Adam Makubuya</strong> <br>
+I am a certified Entrepreneur, well-versed in business administration, and currently learning how to code. I love the outdoors and one thing i can say is love getting where i need to go efficiently. What captured my interest in building this product  its innovation and the time it saves me while travelling .
+
+</li>
+  </ul>
+  <h3><strong>Contact</strong></h3>
+  <p>For more information.......</p>
+  <p>Email us </p>
+</article>
+
+<footer></footer>
+</div>
+
+</body>
+</html>
