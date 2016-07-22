@@ -1,18 +1,75 @@
 
 body {
-  background-image: url(https://images.unsplash.com/photo-1454430690613-c5fbdb397f65?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=201eeb42153694763ef6e7acf2ba8768);
+  /*background-image: url(https://images.unsplash.com/photo-1454430690613-c5fbdb397f65?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=201eeb42153694763ef6e7acf2ba8768);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  font-family: 'EB Garamond', serif;
+  color: #555;
+  margin: 0;
 }
 
 header {
-  font-family: 'EB Garamond', serif;
-  /*font-size: ;
-  margin-bottom: ;
-  margin-top: ;*/
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ggbridge.jpg) bottom no-repeat;
+  background-size: cover;
   text-align: right;
-  font-color: white;
+  color: #fff;
   font-size: 20px;
+  height: 40vh;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header img {
+  position: absolute;
+  display: inline;
+  bottom: 0;
+  left: 0;
+
+}
+
+#tagline {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.product-info {
+    box-sizing: border-box;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.phone-demo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: auto;
+}
+
+.phone-demo img {
+  max-width: 100%;
+  max-height: 55vh;
+  margin: auto;
+
 }
 .about{
    float: left;
