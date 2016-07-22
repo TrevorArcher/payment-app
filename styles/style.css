@@ -1,0 +1,26 @@
+#sign-up-form {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#sign-up-form legend {
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+#sign-up-form  fieldset{
+	border-width: 0px;
+}
+
+#sign-up-form p {
+	margin-left: 50px;
+}
+
+.testimonials {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.testimonials blockquote:first-letter {
+	font-size: 1.5em;
+}
