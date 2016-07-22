@@ -1,7 +1,20 @@
 .about{
    float: left;
+   position: relative;
+   top: 30%;
+
+
 }
-.social-links{
+.copyright{
+    color: #91DC5A;
+	font-size: 1.5em;
+	float: left;
+	position: absolute;
+	left: 45%;
+	bottom: 0%
+
+}
+.social-links ul{
     float: right
 } 
 footer{
@@ -28,9 +41,10 @@ footer{
 	margin-top: auto;
 	margin-bottom: auto
 }
-.about p{
+.about a{
 	padding-top: auto;
 	padding-bottom: auto;
 	color: #91DC5A;
-	font-size: 1.6em
+	font-size: 1.6em;
+	margin-left: .5em
 }
