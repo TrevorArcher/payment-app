@@ -1,36 +1,56 @@
-
 body {
-  font-family: 'EB Garamond', serif;
-  color: #555;
-  margin: 0;
+    font-family: 'EB Garamond', serif;
+    color: #555;
+    margin: 0;
 }
-
 header {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ggbridge.jpg) bottom no-repeat;
   background-size: cover;
   text-align: right;
   color: #fff;
-  font-size: 20px;
   height: 40vh;
 }
 
-header h1 {
+header h1, header h3 {
   margin-bottom: 1rem;
 }
 
-header img {
-  position: absolute;
-  display: inline;
-  bottom: 0;
-  left: 0;
+header h3 {
+  margin-top: 0;
+}
 
+#logo {
+  float: left;
+}
+
+#logo img {
+  width: 3rem;
+  height: auto;
+}
+
+.social-links {
+  float: right;
+}
+
+.social-links ul{
+  margin: 0.25rem;
+}
+
+.social-links li {
+	display: inline-block;
+  margin: 0 0.25rem;
+}
+
+.social-links img {
+  width: 2rem;
+  height: auto;
 }
 
 #tagline {
   position: absolute;
   width: 100%;
-  bottom: 1rem;
+  bottom: 0;
   text-align: center;
   font-size: 2rem;
 }
@@ -47,78 +67,90 @@ header img {
 }
 
 .product-desc {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+}
+
+.product-desc h3 {
+  margin-bottom: 0;
+}
+
+.product-desc h5 {
+  margin-top: 0;
 }
 
 .phone-demo {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 50%;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: auto;
 }
-
 .phone-demo img {
-  max-width: 100%;
-  max-height: 55vh;
-  margin: auto;
+    max-width: 100%;
+    max-height: 55vh;
+    margin: auto;
+}
 
+.about {
+    top: 30%;
 }
-.about{
-   top: 30%;
 
+.about-header {
+  background-image: url('https://images.unsplash.com/photo-1459927519638-7f516a88aec9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bbc865eb7bfcc3203a67fae3de308c5b');
+  background-position: center;
+  text-align: center;
+}
 
+.about-header h1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-.copyright{
-   float: left;
-	font-size: 1.5em;
-text-align: center;
-color: #91DC5A;
 
+.about {
+    display: inline;
+    list-style-type: none;
 }
-.copyright a{
-list-style-type: none;
-color: #91DC5A
+
+.article {
+  list-style-type: none;
+  text-align: center;
+  margin: 10%;
 }
-.copyright p{
-margin-bottom: 0;
-margin-top: 10%;
+
+.team {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  max-width: 18em;
+  margin: 0 auto;
 }
-.social-links ul{
-    float: right;
-    margin-bottom: 0
-}
-footer{
-  background:#BA55D3;
-	width:100%;
-	height:80px;
-  margin-top: auto;
-  /*display: inline-block;*/
+
+/*********** Footer ***********/
+
+footer {
+  background: #ccc;
+	width: 100%;
+	height: 3rem;
+  text-align: center;
+  color: #333;
+  font-size: 1rem;
   box-sizing: border-box;
-}
-.social-links li{
-	display: inline;
-	margin: auto .5em;
-	text-decoration: none;
-}
-.social-links a{
-	text-decoration:none
-}
-.about{
-  display: inline;
-  list-style-type: none
+  padding-top: 1rem;
 }
 
-.the-team{
-  border-top: black dotted;
-  margin-top: 40px;
- border-bottom: black dotted
+footer p {
+  margin: 0 auto;
 }
-h2{
+/**********End footer**********/
+
+/************about*************/
+
+.meet-the{
   text-align: center;
   font-size: 50px;
   margin-bottom: 0;
@@ -129,38 +161,33 @@ top: 25px;
 right: 5px;
 font-family: 'Cantarell', sans-serif;
 }
-.title{
+.team{
  text-align: center;
- position: relative;
- right:455px;
- top: 30px;
- font-size: 20px;
- font-family:'Cantarell', sans-serif;
- margin-bottom: 10px 
-}
-h4{
-  font-size: 100px;
-  text-align: center;
-  margin-top: 0;
-  height: 60px;
-font-family: 'Oswald', sans-serif;
-margin-bottom: 80px
-}
-.article p{
-  text-align: center;
-  border-top: black solid;
-  width: 1000px;
-  font-size: 30px;
-  margin-left: auto;
-  margin-right: auto
-}
-.team ul{
-  width: 300px;
-  display: inline;
- 
+ font-size: 100px;
+ font-family:'Oswald', sans-serif;
 }
 
-.team li{
- list-style-type: none;
-  text-indent: 30px;
+.bio-team{
+display: flex;
+width: 100%;
 }
+
+/*********** Media queries ***********/
+
+@media
+screen and (max-width: 600px),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+  .product-info {
+    padding: 0;
+  }
+  .phone-demo {
+    display: none;
+  }
+  .product-desc {
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+  }
+}
+
