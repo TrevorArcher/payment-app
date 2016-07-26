@@ -106,7 +106,7 @@ header {
 }
 
 .about-header {
-  background-image: url('file:///Users/diemvicky/Desktop/incognito/payment-app/images/about-us-logo.jpeg');
+  background-image: url('../images/about-us-logo.jpeg');
   background-position: center;
   text-align: center;
 }
