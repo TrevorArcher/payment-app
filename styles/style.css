@@ -113,3 +113,54 @@ footer{
   list-style-type: none
 }
 
+.the-team{
+  border-top: black dotted;
+  margin-top: 40px;
+ border-bottom: black dotted
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  height: 50px;
+position: relative;
+top: 25px;
+right: 5px;
+font-family: 'Cantarell', sans-serif;
+}
+.title{
+ text-align: center;
+ position: relative;
+ right:455px;
+ top: 30px;
+ font-size: 20px;
+ font-family:'Cantarell', sans-serif;
+ margin-bottom: 10px 
+}
+h4{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  height: 60px;
+font-family: 'Oswald', sans-serif;
+margin-bottom: 80px
+}
+.article p{
+  text-align: center;
+  border-top: black solid;
+  width: 1000px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto
+}
+.team ul{
+  width: 300px;
+  display: inline;
+ 
+}
+
+.team li{
+ list-style-type: none;
+  text-indent: 30px;
+}
