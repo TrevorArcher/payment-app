@@ -27,7 +27,34 @@ header {
 }
 
 #sign-up-form {
-  /* display: none; */
+	/* display: none; */
+	position: absolute;	
+	height: 20vh;
+	width: 45vw;	
+}
+
+#sign-up-form fieldset {
+	border-width: 0px;
+	height: 20vh;
+}
+
+#sign-up-form legend {
+	margin: 60px auto 0px 20px;
+	font-size: 3vmin;
+}
+
+#sign-up-form p {
+	height: 20%;
+}
+
+#sign-up-form input {
+	width: 100%;
+	height: 2vmin;
+	max-width: 202px;
+}
+
+#sign-up-form label {
+	font-size: 2vmin;
 }
 
 .social-links {
@@ -87,6 +114,7 @@ header {
 }
 
 .phone-demo {
+	position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -152,6 +180,53 @@ footer {
 footer p {
   margin: 0 auto;
 }
+/**********End footer**********/
+
+/************about*************/
+
+.meet-the{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  height: 50px;
+position: relative;
+top: 25px;
+right: 5px;
+font-family: 'Cantarell', sans-serif;
+}
+.team{
+ text-align: center;
+ font-size: 100px;
+ font-family:'Oswald', sans-serif;
+}
+
+.bio-team{
+display: flex;
+}
+.bio-team2{
+  display: flex;
+  margin-top: 30px
+  
+}
+.bio{
+ width: 350px;
+ margin-left:auto;
+ margin-right: auto ;
+}
+.bio img{
+  width:80%;
+  border-radius: 50%;
+}
+h4{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom:10px;
+  text-align: center
+}
+.bio p{
+  font-size: 1.3em
+}
+/***********End about*****************/
 
 /*********** Media queries ***********/
 
@@ -187,3 +262,11 @@ only screen and (min-device-pixel-ratio: 1.5){
     width: 100%;
   }
 }
+
+
+.company-mission{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
