@@ -23,11 +23,9 @@
       </div>
       <div class="phone-demo">
         <img src="images/android.png">
-      </div>
-    </div>
-  <!-- Sign Up Form -->
+<!-- Sign Up Form -->
     <form id="sign-up-form">
-      <legend>Create Account</legend>
+	<legend><span>Create Account</span></legend>
       <fieldset>
     	<p>
     	<label class="SUF-label">First name:</label><br>
@@ -46,11 +44,14 @@
     	<input type="tel" name="phone">
     	</p>
     	<p>
-    	<input type="submit" value="submit">
+    	<button type="submit">Submit</button>
     	</p>
       </fieldset>
     </form>
   <!-- End Sign Up Form -->
+      </div>
+    </div>
+  
 
   <!-- Testimonials -->
   <div class="testimonials">
@@ -105,7 +106,9 @@
   </footer>
 
   <script>
-
+		var signUpForm = document.getElementById("sign-up-form");
+		var style = phoneDemoImg.currentStyle || window.getComputedStyle(phoneDemoImg);
+		console.log(style);
   </script>
 </body>
 </html>
