@@ -1,10 +1,8 @@
-
 body {
-  font-family: 'EB Garamond', serif;
-  color: #555;
-  margin: 0;
+    font-family: 'EB Garamond', serif;
+    color: #555;
+    margin: 0;
 }
-
 header {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ggbridge.jpg) bottom no-repeat;
@@ -48,7 +46,6 @@ header h3 {
   width: 2rem;
   height: auto;
 }
-
 #tagline {
   position: absolute;
   width: 100%;
@@ -56,7 +53,6 @@ header h3 {
   text-align: center;
   font-size: 2rem;
 }
-
 .product-info {
     box-sizing: border-box;
     height: 60vh;
@@ -67,13 +63,12 @@ header h3 {
     padding-top: 1.25rem;
     font-size: 1.5rem;
 }
-
 .product-desc {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
 }
 
 .product-desc h3 {
@@ -84,23 +79,89 @@ header h3 {
   margin-top: 0;
 }
 
-
 .phone-demo {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 50%;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: auto;
 }
-
 .phone-demo img {
-  max-width: 100%;
-  max-height: 55vh;
-  margin: auto;
-
+    max-width: 100%;
+    max-height: 55vh;
+    margin: auto;
 }
+
+.about {
+    top: 30%;
+}
+
+header.about-header {
+  background-image: url('https://images.unsplash.com/photo-1459927519638-7f516a88aec9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bbc865eb7bfcc3203a67fae3de308c5b');
+  background-position: center;
+  text-align: center;
+}
+
+.about-header h1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+    float: left;
+    font-size: 1.5em;
+    text-align: center;
+    color: #91DC5A;
+}
+.copyright a {
+    list-style-type: none;
+    color: #91DC5A
+}
+.copyright p {
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+.social-links ul {
+    float: right;
+    margin-bottom: 0
+}
+/*footer {
+    background: #BA55D3;
+    width: 100%;
+    height: 80px;
+    margin-top: auto;
+    /*display: inline-block;*/
+    /*box-sizing: border-box;
+}*/
+.social-links li {
+    display: inline;
+    margin: auto .5em;
+    text-decoration: none;
+}
+.social-links a {
+    text-decoration: none;
+}
+.about {
+    display: inline;
+    list-style-type: none;
+}
+
+.article {
+  list-style-type: none;
+  text-align: center;
+  margin: 10%;
+}
+
+.team {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  max-width: 18em;
+  margin: 0 auto;
 
 /*********** Footer ***********/
+
 footer {
   background:#ccc;
 	width:100%;
