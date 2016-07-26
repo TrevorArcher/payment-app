@@ -12,11 +12,8 @@ header {
   height: 40vh;
 }
 
-header h1, header h3 {
-  margin-bottom: 1rem;
-}
-
-header h3 {
+#tagline h1, #tagline h3 {
+  margin-bottom: 0.5rem;
   margin-top: 0;
 }
 
@@ -27,6 +24,10 @@ header h3 {
 #logo img {
   width: 3rem;
   height: auto;
+}
+
+#sign-up-form {
+  display: none;
 }
 
 .social-links {
@@ -52,8 +53,11 @@ header h3 {
   width: 100%;
   bottom: 0;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2em;
 }
+
+/*********** Product info ***********/
+
 
 .product-info {
     box-sizing: border-box;
@@ -94,6 +98,8 @@ header h3 {
     max-height: 55vh;
     margin: auto;
 }
+
+/*********** About ***********/
 
 .about {
     top: 30%;
@@ -153,6 +159,22 @@ footer p {
 screen and (max-width: 600px),
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5){
+
+  body {
+    text-align: center;
+  }
+
+  #tagline *{
+    margin: 0 0.25rem;
+  }
+
+  #sign-up-form {
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
   .product-info {
     padding: 0;
   }
