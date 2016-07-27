@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <div id="tagline">
             <h1>incognito</h1>
             <h3>Start your day in the fast lane.</h3>
@@ -32,9 +32,8 @@
               </a>
             </li>
           </ul>
-        </div>
-
-    </header>
+        </div> 
+	</header>
     <main>
         <div class="product-info">
             <div class="product-desc">
@@ -44,38 +43,41 @@
             </div>
             <div class="phone-demo">
                 <img src="images/android.png">
+				<!-- Sign Up Form -->
+    <form id="sign-up-form">
+	<legend><span>Create Account</span></legend>
+      <fieldset>
+    	<p>
+    	<label class="SUF-label">First name:</label><br>
+    	<input type="text" name="firstName">
+    	</p>
+    	<p>
+    	<label class="SUF-label">Last name:</label><br>
+    	<input type="text" name="lastName">
+    	</p>
+    	<p>
+    	<label class="SUF-label">Email:</label><br>
+    	<input type="email" name="email">
+    	</p>
+    	<p>
+    	<label class="SUF-label">Phone:</label><br>
+    	<input type="tel" name="phone">
+    	</p>
+    	<p>
+    	<button type="submit">Submit</button>
+    	</p>
+      </fieldset>
+    </form>
+  <!-- End Sign Up Form -->
             </div>
         </div>
-        <!-- Sign Up Form -->
-        <form id="sign-up-form">
-            <legend>Create Account</legend>
-            <fieldset>
-                <p>
-                    <label class="SUF-label">First name:</label>
-                    <br>
-                    <input type="text" name="firstName">
-                </p>
-                <p>
-                    <label class="SUF-label">Last name:</label>
-                    <br>
-                    <input type="text" name="lastName">
-                </p>
-                <p>
-                    <label class="SUF-label">Email:</label>
-                    <br>
-                    <input type="email" name="email">
-                </p>
-                <p>
-                    <label class="SUF-label">Phone:</label>
-                    <br>
-                    <input type="tel" name="phone">
-                </p>
-                <p>
-                    <input type="submit" value="submit">
-                </p>
-            </fieldset>
-        </form>
-        <!-- End Sign Up Form -->
+
+
+</div>
+
+
+<!-- About Us -->
+
 <div class="company-mission">
     <header class="about-header">
       <h1>About Us</h1>
@@ -92,8 +94,6 @@
           <p>Building an autonomous mobile payments system</p>
         <p>  that brings convenience to your daily commute.</p>
       </div>
-
-    <!-- About Us -->
 
   <div class="container">
   <p class="meet-the">Meet the</p>
@@ -152,6 +152,7 @@
   </footer>
 
   <script>
+
   </script>
 </body>
 
