@@ -1,7 +1,7 @@
 body {
-    font-family: 'EB Garamond', serif;
-    color: #555;
-    margin: 0;
+	font-family: 'EB Garamond', serif;
+	color: #555;
+	margin: 0;
 }
 header {
   position: relative;
@@ -27,7 +27,54 @@ header {
 }
 
 #sign-up-form {
-  display: none;
+	position: absolute;
+	height: 20vh;
+	width: 45vw;
+	top: 0;
+}
+
+#sign-up-form fieldset {
+	border-width: 0px;
+	height: 20vh;
+}
+
+#sign-up-form legend {
+	margin: 60px auto 0px 20px;
+	font-size: 3vmin;
+}
+
+#sign-up-form p {
+	height: 20%;
+}
+
+#sign-up-form input {
+	width: 100%;
+	height: 2vmin;
+	max-width: 202px;
+}
+
+#sign-up-form label {
+	font-size: 2vmin;
+}
+
+#sign-up-mobile {
+	display: none;
+}
+
+#sign-up-mobile input {
+	margin-bottom: 1rem;
+	width: 65%;
+}
+
+#sign-up-mobile button {
+	background-color: #1f9438;
+	color: #fdfdfd;
+	width: 40%;
+	font-family: inherit;
+	font-size: 1rem;
+	border-radius: 2px;
+	border: none;
+	padding: 0.25rem;
 }
 
 .social-links {
@@ -87,11 +134,12 @@ header {
 }
 
 .phone-demo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 50%;
-    margin: auto;
+	position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: auto;
 }
 .phone-demo img {
     max-width: 100%;
@@ -179,7 +227,7 @@ display: flex;
 .bio-team2{
   display: flex;
   margin-top: 30px
-  
+
 }
 .bio{
  width: 350px;
@@ -218,7 +266,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin: 0 0.25rem;
   }
 
-  #sign-up-form {
+  #sign-up-mobile {
     display: inline-block;
     width: 85%;
     text-align: center;
@@ -244,4 +292,3 @@ only screen and (min-device-pixel-ratio: 1.5){
   margin: 0 auto;
 
 }
-
