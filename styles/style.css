@@ -51,10 +51,21 @@ header {
 	width: 100%;
 	height: 2vmin;
 	max-width: 202px;
+	border-radius: 2px;
 }
 
 #sign-up-form label {
 	font-size: 2vmin;
+}
+
+#sign-up-form button {
+	padding: 0 auto;
+	background-color: #1f9438;
+	color: #fff;
+	border-radius: 2px;
+	border: none;
+	width: 40%;
+	max-width: 202px;
 }
 
 #sign-up-mobile {
@@ -64,6 +75,9 @@ header {
 #sign-up-mobile input {
 	margin-bottom: 1rem;
 	width: 65%;
+	border-radius: 2px;
+	display: flex;
+	
 }
 
 #sign-up-mobile button {
@@ -134,7 +148,7 @@ header {
 }
 
 .phone-demo {
-	position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -282,7 +296,6 @@ only screen and (min-device-pixel-ratio: 1.5){
     width: 100%;
   }
 }
-
 
 .company-mission{
   text-align: center;
