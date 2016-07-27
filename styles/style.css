@@ -27,10 +27,10 @@ header {
 }
 
 #sign-up-form {
-	/* display: none; */
-	position: absolute;	
+	position: absolute;
 	height: 20vh;
-	width: 45vw;	
+	width: 45vw;
+	top: 0;
 }
 
 #sign-up-form fieldset {
@@ -55,6 +55,26 @@ header {
 
 #sign-up-form label {
 	font-size: 2vmin;
+}
+
+#sign-up-mobile {
+	display: none;
+}
+
+#sign-up-mobile input {
+	margin-bottom: 1rem;
+	width: 65%;
+}
+
+#sign-up-mobile button {
+	background-color: #1f9438;
+	color: #fdfdfd;
+	width: 40%;
+	font-family: inherit;
+	font-size: 1rem;
+	border-radius: 2px;
+	border: none;
+	padding: 0.25rem;
 }
 
 .social-links {
@@ -115,11 +135,11 @@ header {
 
 .phone-demo {
 	position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 50%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: auto;
 }
 .phone-demo img {
     max-width: 100%;
@@ -207,7 +227,7 @@ display: flex;
 .bio-team2{
   display: flex;
   margin-top: 30px
-  
+
 }
 .bio{
  width: 350px;
@@ -243,7 +263,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     margin: 0 0.25rem;
   }
 
-  #sign-up-form {
+  #sign-up-mobile {
     display: inline-block;
     width: 85%;
     text-align: center;
@@ -269,4 +289,3 @@ only screen and (min-device-pixel-ratio: 1.5){
   margin: 0 auto;
 
 }
-
