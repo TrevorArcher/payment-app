@@ -223,10 +223,8 @@ font-family: 'Cantarell', sans-serif;
 
 .bio-team{
 display: flex;
+flex-wrap: nowrap
 }
-.bio-team2{
-  display: flex;
-  margin-top: 30px
 
 }
 .bio{
@@ -234,21 +232,28 @@ display: flex;
  margin-left:auto;
  margin-right: auto ;
 }
-.bio img{
-  width:80%;
+.bio-team img{
+  display: block;
+  width:70%;
   border-radius: 50%;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  border: 5px solid black 
 }
-h4{
+.bio-team h4{
   font-family: 'Oswald', sans-serif;
   margin-bottom:10px;
   text-align: center
 }
 .bio p{
   font-size: 1.3em;
-  text-align: center
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-indent: 10%
 }
+
+
 /***********End about*****************/
 
 /*********** Media queries ***********/
