@@ -73,24 +73,6 @@ header {
 	display: none;
 }
 
-#sign-up-mobile input {
-	margin-bottom: 1rem;
-	width: 65%;
-	border-radius: 2px;
-	
-}
-
-#sign-up-mobile button {
-	background-color: #1f9438;
-	color: #fdfdfd;
-	width: 40%;
-	font-family: inherit;
-	font-size: 1rem;
-	border-radius: 2px;
-	border: none;
-	padding: 0.25rem;
-}
-
 .social-links {
   float: right;
 }
@@ -258,7 +240,7 @@ flex-wrap: nowrap
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black 
+  border: 5px solid black
 }
 .bio-team h4{
   font-family: 'Oswald', sans-serif;
@@ -297,6 +279,31 @@ only screen and (min-device-pixel-ratio: 1.5){
     text-align: center;
     margin: 2rem 0;
   }
+
+	#sign-up-mobile legend {
+		margin: 0 auto;
+	}
+
+	#sign-up-mobile fieldset {
+		padding: 1rem;
+	}
+
+	#sign-up-mobile input {
+		margin-bottom: 1rem;
+		width: 65%;
+		border-radius: 2px;
+	}
+
+	#sign-up-mobile button {
+		background-color: #1f9438;
+		color: #fdfdfd;
+		width: 40%;
+		font-family: inherit;
+		font-size: 1rem;
+		border-radius: 2px;
+		border: none;
+		padding: 0.25rem;
+	}
 
   .product-info {
     padding: 0;
