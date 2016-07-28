@@ -78,7 +78,7 @@ header {
 	width: 65%;
 	border-radius: 2px;
 	display: flex;
-	
+
 }
 
 #sign-up-mobile button {
@@ -259,7 +259,7 @@ flex-wrap: nowrap
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black 
+  border: 5px solid black
 }
 .bio-team h4{
   font-family: 'Oswald', sans-serif;
