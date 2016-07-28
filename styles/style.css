@@ -27,36 +27,36 @@ header {
 	margin: 0.75rem 0.25rem;
 }
 
+
 #sign-up-form {
 	position: absolute;
-	height: 20vh;
-	width: 45vw;
+	height: 100%;
+	width: 100%;
 	top: 0;
 }
 
 #sign-up-form fieldset {
 	border-width: 0px;
-	height: 20vh;
+}
+
+#sign-up-form-container div {
+  margin: 5px 0px;
 }
 
 #sign-up-form legend {
-	margin: 60px auto 0px 20px;
-	font-size: 3vmin;
-}
-
-#sign-up-form p {
-	height: 20%;
-}
-
-#sign-up-form input {
-	width: 100%;
-	height: 2vmin;
-	max-width: 202px;
-	border-radius: 2px;
+	margin: 60px 30px 0px 30px;
+	font-size: 0.9em;
 }
 
 #sign-up-form label {
-	font-size: 2vmin;
+	font-size: 0.7em;
+}
+
+#sign-up-form input {
+	width: 98%;
+	height: 20px;
+	max-width: 200px;
+	border-radius: 2px;
 }
 
 #sign-up-form button {
@@ -66,7 +66,7 @@ header {
 	border-radius: 2px;
 	border: none;
 	width: 40%;
-	max-width: 202px;
+	max-width: 200px;
 }
 
 #sign-up-mobile {
@@ -77,7 +77,6 @@ header {
 	margin-bottom: 1rem;
 	width: 65%;
 	border-radius: 2px;
-	display: flex;
 	
 }
 
@@ -280,7 +279,7 @@ flex-wrap: nowrap
 /*********** Media queries ***********/
 
 @media
-screen and (max-width: 600px),
+screen and (max-width: 600px), (max-height: 810px),
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5){
 
