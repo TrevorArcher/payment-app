@@ -24,6 +24,7 @@ header {
 #logo img {
   width: 3rem;
   height: auto;
+	margin: 0.75rem 0.25rem;
 }
 
 #sign-up-form {
@@ -82,7 +83,7 @@ header {
 }
 
 .social-links ul{
-  margin: 0.25rem;
+  margin-right: 0.75rem;
 }
 
 .social-links li {
@@ -114,7 +115,7 @@ header {
     justify-content: center;
     flex-direction: column;
     padding-top: 1.25rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .product-desc {
@@ -126,11 +127,15 @@ header {
 }
 
 .product-desc h3 {
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 32px;
 }
 
 .product-desc h5 {
   margin-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
 }
 
 .phone-demo {
@@ -157,12 +162,14 @@ header {
   background-image: url('../images/about-us-logo.jpeg');
   background-position: center;
   text-align: center;
+	font-size: 25px;
 }
 
 .about-header h1 {
   position: absolute;
   bottom: 0;
   width: 100%;
+	margin-bottom: 1rem;
 }
 
 .about {
