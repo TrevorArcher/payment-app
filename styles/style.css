@@ -242,28 +242,20 @@ font-family: 'Cantarell', sans-serif;
 .bio-team, .bio-team2{
 display: flex
 }
-.bio-team{
-  display: flex;
-  
-}
-.bio-team .bio{
- width: 400px;
- margin-left:auto;
- margin-right: auto;
-   padding: auto 3.3em
-}
-.bio-team2 .bio{
+
+.bio{
  width: 400px;
  margin-left:auto;
  margin-right: auto
 }
+
 .bio-team img,.bio-team2 img{
   display: block;
   width:70%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black 
+  border: 2px solid black
 
 }
 .bio-team h4, .bio-team2 h4{
@@ -279,7 +271,10 @@ display: flex
   text-indent: 10%
 }
 
-
+.company-mission {
+  text-align: center;
+  margin: 0 auto;
+}
 /***********End about*****************/
 
 /*********** Media queries ***********/
@@ -300,12 +295,17 @@ display: flex
 }*/
 
 @media
-only screen
-and (max-width: 650px) {
+only screen and (max-width: 650px),
+only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
 
-  body {
+  body > *{
     text-align: center;
+		font-size: 175%;
   }
+
+footer {
+	padding: 0;
+}
 
   #tagline *{
     margin: 0 0.25rem;
@@ -344,20 +344,29 @@ and (max-width: 650px) {
 	}
 
   .product-info {
+		font-size: inherit;
     padding: 0;
   }
+
   .phone-demo {
     display: none;
   }
+
   .product-desc {
+		display: block;
     text-align: center;
     margin: auto 0;
     width: 100%;
   }
-}
 
-.company-mission{
-  text-align: center;
-  margin: 0 auto;
+	.bio-team, .bio-team2{
+	display: block;
+	}
+
+	.bio {
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+	}
 
 }
