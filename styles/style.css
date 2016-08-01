@@ -239,26 +239,34 @@ font-family: 'Cantarell', sans-serif;
  font-family:'Oswald', sans-serif;
 }
 
+.bio-team, .bio-team2{
+display: flex
+}
 .bio-team{
-display: flex;
-flex-wrap: nowrap
+  display: flex;
+  
 }
-
-}
-.bio{
- width: 350px;
+.bio-team .bio{
+ width: 400px;
  margin-left:auto;
- margin-right: auto ;
+ margin-right: auto;
+   padding: auto 3.3em
 }
-.bio-team img{
+.bio-team2 .bio{
+ width: 400px;
+ margin-left:auto;
+ margin-right: auto
+}
+.bio-team img,.bio-team2 img{
   display: block;
   width:70%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black
+  border: 2px solid black 
+
 }
-.bio-team h4{
+.bio-team h4, .bio-team2 h4{
   font-family: 'Oswald', sans-serif;
   margin-bottom:10px;
   text-align: center
@@ -267,7 +275,7 @@ flex-wrap: nowrap
   font-size: 1.3em;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
   text-indent: 10%
 }
 
