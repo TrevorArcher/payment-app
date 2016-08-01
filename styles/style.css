@@ -255,7 +255,8 @@ display: flex
 .bio-team2 .bio{
  width: 400px;
  margin-left:auto;
- margin-right: auto
+ margin-right: auto;
+ padding: auto 4.3em
 }
 .bio-team img,.bio-team2 img{
   display: block;
@@ -272,11 +273,11 @@ display: flex
   text-align: center
 }
 .bio p{
-  font-size: 1.3em;
+font-size: 1.2em;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  text-indent: 10%
+  width: 85%;
+  text-indent: 10%;
 }
 
 
