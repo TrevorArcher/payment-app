@@ -265,11 +265,11 @@ display: flex
   text-align: center
 }
 .bio p{
-font-size: 1.2em;
+	font-size: 1.2em;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-  text-indent: 10%;
+	text-align: center;
 }
 
 .company-mission {
@@ -328,6 +328,7 @@ footer {
 	}
 
 	#sign-up-mobile input {
+		height: 1.5rem;
 		margin-bottom: 1rem;
 		width: 65%;
 		border-radius: 2px;
