@@ -37,7 +37,7 @@ header {
 
 #sign-up-form legend {
 	margin: 4.25rem 30px 0px 30px;
-	font-size: 0.9em;	
+	font-size: 0.9em;
 }
 
 #sign-up-form h3 {
@@ -78,7 +78,7 @@ header {
 	border-radius: 2px;
 	border: none;
 	width: 60%;
-	max-width: 200px;	
+	max-width: 200px;
 }
 
 #button-div {
@@ -276,10 +276,24 @@ flex-wrap: nowrap
 
 /*********** Media queries ***********/
 
+/* ----------- Non-Retina Screens ----------- */
+/*@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}*/
+
+/* ----------- Retina Screens ----------- */
+/*@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+}*/
+
 @media
-screen and (max-width: 600px), (max-height: 912px),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5){
+only screen
+and (max-width: 650px) {
 
   body {
     text-align: center;
