@@ -277,6 +277,7 @@ display: flex
 .company-mission {
   text-align: center;
   margin: 0 auto;
+	font-size: 1.2em;
 }
 /***********End about*****************/
 
