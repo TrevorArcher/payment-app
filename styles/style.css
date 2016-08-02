@@ -158,8 +158,9 @@ header {
   margin: auto;
 }
 .phone-demo img {
+		background-color: #fff;
     max-width: 100%;
-    max-height: 55vh;
+    max-height: 505px;
     margin: auto;
 }
 
@@ -174,6 +175,7 @@ header {
   background-position: center;
   text-align: center;
 	font-size: 25px;
+	z-index: -1;
 }
 
 .about-header h1 {
