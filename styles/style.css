@@ -363,6 +363,12 @@ footer {
     width: 100%;
   }
 
+	.product-desc p,
+	.product-desc h3,
+	.product-desc h5 {
+		font-size: 125%;
+	}
+
 	.bio-team, .bio-team2{
 	display: block;
 	}
