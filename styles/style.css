@@ -93,7 +93,7 @@ header {
   float: right;
 }
 
-.social-links ul{
+.social-links ul {
   margin-right: 0.75rem;
 }
 
@@ -157,6 +157,7 @@ header {
   max-width: 50%;
   margin: auto;
 }
+
 .phone-demo img {
 		background-color: #fff;
     max-width: 100%;
@@ -224,49 +225,51 @@ footer p {
 
 /************about*************/
 
-.meet-the{
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 0;
-  margin-top: 20px;
-  height: 50px;
-position: relative;
-top: 25px;
-right: 5px;
-font-family: 'Cantarell', sans-serif;
-}
-.team{
- text-align: center;
- font-size: 100px;
- font-family:'Oswald', sans-serif;
+.meet-the {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 20px;
+	height: 50px;
+	position: relative;
+	top: 25px;
+	right: 5px;
+	font-family: 'Cantarell', sans-serif;
 }
 
-.bio-team, .bio-team2{
-display: flex
+.team {
+	text-align: center;
+	font-size: 100px;
+	font-family:'Oswald', sans-serif;
 }
 
-.bio{
- width: 400px;
- margin-left:auto;
- margin-right: auto;
- padding: auto 4.3em
+.bio-team, .bio-team2 {
+	display: flex
 }
 
-.bio-team img,.bio-team2 img{
+.bio {
+	width: 400px;
+	margin-left:auto;
+	margin-right: auto;
+	padding: auto 4.3em
+}
+
+.bio-team img,.bio-team2 img {
   display: block;
   width:70%;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black
-
 }
-.bio-team h4, .bio-team2 h4{
+
+.bio-team h4, .bio-team2 h4 {
   font-family: 'Oswald', sans-serif;
   margin-bottom:10px;
   text-align: center
 }
-.bio p{
+
+.bio p {
 	font-size: 1.2em;
   margin-left: auto;
   margin-right: auto;
@@ -282,36 +285,20 @@ display: flex
 /***********End about*****************/
 
 /*********** Media queries ***********/
-
-/* ----------- Non-Retina Screens ----------- */
-/*@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-}*/
-
-/* ----------- Retina Screens ----------- */
-/*@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-}*/
-
 @media
 only screen and (max-width: 650px),
 only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
 
-  body > *{
+  body > * {
     text-align: center;
 		font-size: 175%;
   }
 
-footer {
-	padding: 0;
-}
+	footer {
+		padding: 0;
+	}
 
-  #tagline *{
+  #tagline * {
     margin: 0 0.25rem;
   }
 
@@ -379,5 +366,4 @@ footer {
 		width: 95%;
 		margin: 0 auto;
 	}
-
 }
