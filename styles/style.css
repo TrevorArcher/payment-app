@@ -285,13 +285,18 @@ footer p {
 /***********End about*****************/
 
 /*********** Media queries ***********/
+@media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5)  {
+	body > * {
+		font-size: 175%;
+	}
+}
+
 @media
 only screen and (max-width: 650px),
 only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
 
   body > * {
     text-align: center;
-		font-size: 175%;
   }
 
 	footer {
