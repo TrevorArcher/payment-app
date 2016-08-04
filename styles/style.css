@@ -126,7 +126,7 @@ header {
     justify-content: center;
     flex-direction: column;
     padding-top: 1.25rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .product-desc {
@@ -140,13 +140,11 @@ header {
 .product-desc h3 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 32px;
 }
 
 .product-desc h5 {
   margin-top: 0;
 	margin-bottom: 0;
-	font-size: 18px;
 }
 
 .phone-demo {
@@ -285,11 +283,6 @@ footer p {
 /***********End about*****************/
 
 /*********** Media queries ***********/
-@media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5)  {
-	body > * {
-		font-size: 175%;
-	}
-}
 
 @media
 only screen and (max-width: 650px),
@@ -356,12 +349,6 @@ only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
     width: 100%;
   }
 
-	.product-desc p,
-	.product-desc h3,
-	.product-desc h5 {
-		font-size: 125%;
-	}
-
 	.bio-team, .bio-team2{
 	display: block;
 	}
@@ -370,5 +357,66 @@ only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5) {
 		display: block;
 		width: 95%;
 		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5)  {
+
+	#tagline,
+	.about-header {
+	  font-size: 4.5rem;
+	}
+
+	.product-desc h3 {
+		font-size: 6rem;
+	}
+
+	.product-desc h5,
+	.company-mission h3,
+	.bio h4,
+	#sign-up-mobile h3 {
+		font-size: 4rem;
+	}
+
+	.product-desc p,
+	.company-mission p,
+	.bio p,
+	#sign-up-mobile label  {
+		font-size: 3.7rem;
+	}
+
+	footer {
+	  font-size: 2.5rem;
+	}
+
+	.meet-the {
+		font-size: 4rem;
+	}
+
+	.team {
+		font-size: 10rem;
+	}
+
+	#sign-up-mobile {
+		width: 95%;
+		margin: 2rem 0;
+	}
+
+	#sign-up-mobile input {
+		height: 3rem;
+		margin-bottom: 1rem;
+		width: 65%;
+		border-radius: 2px;
+	}
+
+	#sign-up-mobile button {
+		background-color: #1f9438;
+		color: #fdfdfd;
+		width: 40%;
+		font-family: inherit;
+		font-size: 4rem;
+		border-radius: 2px;
+		border: none;
+		padding: 0.25rem;
 	}
 }
